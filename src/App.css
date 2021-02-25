@@ -1,4 +1,143 @@
-.App {
+.Button{
+  font-size: large;
+  max-height: max-content;
+  background-color: bisque;
+  width: fit-content;
+  display: inline-block;
+  height: 200px;
+  margin: 300px;
+  
+  
+}
+.b1{
+  margin-inline: 20px;
+}
+.b3{
+  margin-inline: 20px;
+}
+
+/* .navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 0.75rem 2rem;
+  background: var(--offWhite);
+  z-index: 1;
+}
+.nav-header {
+  display: flex;
+  justify-content: space-between;
+} */
+.nav-btn {
+  background: gray;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+.nav-icon {
+  font-size: 1.5rem;
+  color: rgb(80, 75, 75);
+}
+.nav-links {
+  height: 0;
+  overflow: hidden;
+  transition: var(--mainTransition);
+  list-style-type: none;
+}
+.nav-links a {
+  display: block;
+  text-decoration: none;
+  padding: 1rem 0;
+  color: black;
+  transition: var(--mainTransition);
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: var(--mainSpacing);
+}
+.nav-links a:hover {
+  color: var(--primaryColor);
+}
+
+.show-nav {
+  height: 100px;
+}
+@media screen and (min-width: 768px) {
+  .nav-btn {
+    display: none;
+  }
+  .nav-center {
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+  }
+  .nav-links {
+    height: auto;
+    display: flex;
+    margin-left: 4rem;
+  }
+  .nav-links a {
+    margin: 0 1rem;
+    padding: 0.5rem 0;
+  }
+}
+
+
+
+
+/* Navbar */
+.navbar{
+position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  padding: 1rem 1.5rem;
+  background-color: rgb(214, 208, 208);
+  background: var(--mainGrey);
+  border-bottom: 3px solid ;
+  border-color: #5fb7ea;
+}
+
+  .nav-center {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1170px;
+    max-height: 26px;
+    margin: 0 auto;
+  }
+
+  .nav-header {
+    display: flex;
+    justify-content: space-between;
+  }   
+
+/*.navbar {
+  position: fixed;
+  top: 0;
+  left: 10px;
+  width: 100%;
+  padding: 0.75rem 2rem;
+  background: rgb(245, 240, 240);
+  z-index: 1;
+}
+.nav-header {
+  display: flex;
+  justify-content: space-between;
+} */
+
+
+
+
+
+
+
+
+
+
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +174,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
